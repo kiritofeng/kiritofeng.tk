@@ -276,6 +276,16 @@ header.masthead p {
   outline: none;
 }
 
+.portfolio-box {
+  overflow: hidden;
+  height: 242.3px;
+}
+
+.portfolio-box > img {
+  position: absolute;
+  transform: translate(0, -50%) translate(0, 121.15px);
+}
+
 @media (min-width: 768px) {
   .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-category {
     font-size: 16px;
