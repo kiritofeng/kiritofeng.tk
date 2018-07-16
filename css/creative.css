@@ -278,12 +278,12 @@ header.masthead p {
 
 .portfolio-box {
   overflow: hidden;
-  height: 242.3px;
+  height: 272.3px;
 }
 
 .portfolio-box > img {
   position: absolute;
-  transform: translate(0, -50%) translate(0, 121.15px);
+  transform: translate(0, -21%);
 }
 
 @media (min-width: 768px) {
