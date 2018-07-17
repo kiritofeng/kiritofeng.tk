@@ -285,6 +285,12 @@ header.masthead p {
   position: absolute;
 }
 
+img.vertical-center {
+  position: relative;
+  top: -50%;
+  margin-top: 50%
+}
+
 @media (min-width: 768px) {
   .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-category {
     font-size: 16px;
@@ -317,11 +323,11 @@ header.masthead p {
 
 .btn-primary:hover, .btn-primary:focus, .btn-primary:active {
   color: #fff;
-  background-color: #99ccff !important;
+  background-color: #00e6e6 !important;
 }
 
 .btn-primary:active, .btn-primary:focus {
-  box-shadow: 0 0 0 0.2rem rgba(240, 95, 64, 0.5) !important;
+  box-shadow: 0 0 0 0.2rem rgba(0, 230, 230, 0.5) !important;
 }
 
 #projects {
