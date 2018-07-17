@@ -278,12 +278,11 @@ header.masthead p {
 
 .portfolio-box {
   overflow: hidden;
-  height: 272.3px;
+  height: 300px;
 }
 
 .portfolio-box > img {
   position: absolute;
-  transform: translate(0, -21%);
 }
 
 @media (min-width: 768px) {
@@ -323,4 +322,13 @@ header.masthead p {
 
 .btn-primary:active, .btn-primary:focus {
   box-shadow: 0 0 0 0.2rem rgba(240, 95, 64, 0.5) !important;
+}
+
+#projects {
+    padding-top: 50px;
+    padding-bottom: 0px;
+}
+
+#contact {
+    background-color: #e0e0e0;
 }
