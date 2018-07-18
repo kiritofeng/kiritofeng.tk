@@ -285,6 +285,10 @@ header.masthead p {
   position: absolute;
 }
 
+.portfolio-box:hover {
+  cursor: pointer;
+}
+
 img.vertical-center {
   position: relative;
   top: -50%;

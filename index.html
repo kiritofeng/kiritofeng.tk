@@ -102,7 +102,7 @@
       <div class="container-fluid p-0">
         <div class="row no-gutters popup-gallery">
           <div class="col-lg-4 col-sm-6">
-            <span class="portfolio-box" style="background-color:#000000">
+            <span class="portfolio-box" style="background-color:#000000" data-toggle="modal" data-target="#dmoj-modal">
               <img class="img-fluid" src="img/dmoj.png" class="vertical-center" style="height:100%;">
               <div class="portfolio-box-caption">
                 <div class="portfolio-box-caption-content">
@@ -115,9 +115,21 @@
                 </div>
               </div>
             </span>
+            <div id="dmoj-modal" class="modal fade" role="dialog">
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-body">
+                    <p><a href="https://dmoj.ca">DM::OJ</a><sup><a href="https://github.com/DMOJ"><i class="fa fa-github"></i></a></sup> is an online judge platform, with over 20000 users. I have contributed bug fixes to both the site's frontend, backend, as well as to the sandbox used to run the submissions in, including porting the sandbox from Python2 to Python3.</p>
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Coolio!</button>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
           <div class="col-lg-4 col-sm-6">
-            <span class="portfolio-box">
+            <span class="portfolio-box" data-toggle="modal" data-target="#clubs-modal">
               <img class="img-fluid" src="img/ecoo.jpg">
               <div class="portfolio-box-caption">
                 <div class="portfolio-box-caption-content">
@@ -130,10 +142,23 @@
                 </div>
               </div>
             </span>
+            <div id="clubs-modal" class="modal fade" role="dialog">
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-body">
+                    <p>I am the vice president of both the school's stage crew and computer science club. Additonally, I am an executive in the school's math club.</p>
+                    <p>This year, our computer science club sent 2 teams to the final round of the ECOO competition. The teams I was on placed first during the first two rounds, and placed second during the finals.</p>
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Congrats!</button>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
           <div class="col-lg-4 col-sm-6">
-            <span class="portfolio-box">
-              <img class="img-fluid" src="img/seq2.png">
+            <span class="portfolio-box" data-toggle="modal" data-target="#contests-modal">
+              <img class="img-fluid" src="img/seq2.png" >
               <div class="portfolio-box-caption">
                 <div class="portfolio-box-caption-content">
                   <div class="project-category text-faded">
@@ -145,9 +170,22 @@
                 </div>
               </div>
             </span>
+            <div id="contests-modal" class="modal fade" role="dialog">
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-body">
+                    <p>I have been competeting in the Canadian Computing Competition since grade 8, and in the last two years (grades 10 and 11) have placed in the top 30 students out of over 3000, which qualified me for the next round - the Canadian Computing Olympiad.</p>
+                    <p>My goal is to also qualify for the Computing Olympiad next year, and to place higher during the competition.</p>
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Good luck!</button>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
           <div class="col-lg-4 col-sm-6">
-            <span class="portfolio-box" style="background:linear-gradient(to right,#F4C711,#F3A61D)">
+            <span class="portfolio-box" style="background:linear-gradient(to right,#F4C711,#F3A61D)" data-toggle="modal" data-target="#dmpg-modal">
               <img class="img-fluid" src="img/dmpg.png">
               <div class="portfolio-box-caption">
                 <div class="portfolio-box-caption-content">
@@ -160,9 +198,22 @@
                 </div>
               </div>
             </span>
+            <div id="dmpg-modal" class="modal fade" role="dialog">
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-body">
+                    <p>In addition to competiting in contests, I also helped to organize several contests, one of which was the <a href="https://dmoj.ca/dmpg">Don Mills Programming Gala</a>.</p>
+                    <p>This involved setting challenging computer science problems, contacting teachers and students to invite them, and the logistics of having 200 students in one area. It was a challenge, but I felt that the experience was well worth it, and I will be once again organizing this contest next year.</p>
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Good luck!</button>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
           <div class="col-lg-4 col-sm-6">
-            <span class="portfolio-box">
+            <span class="portfolio-box" data-toggle="modal" data-target="#sort-modal">
               <img class="img-fluid" src="img/sorting.png">
               <div class="portfolio-box-caption">
                 <div class="portfolio-box-caption-content">
@@ -175,9 +226,22 @@
                 </div>
               </div>
             </span>
+            <div id="sort-modal" class="modal fade" role="dialog">
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-body">
+                    <p>An assignment I was given in my ICS4U class was to visually compare two sorting algorithms. As the class was in Java, my partner and I decided to compare Quicksort and Timsort.</p>
+                    <p>The project was implemented using <code>javax.swing</code> for the GUI, and scales seemlessly as the window is resized. There is also an option to change the number of bars, and also a worst case option for both sorts.</p>
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Sort away!</button>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
           <div class="col-lg-4 col-sm-6">
-            <span class="portfolio-box">
+            <span class="portfolio-box" data-toggle="modal" data-target="#p3p-modal">
               <img class="img-fluid" src="img/p3p.jpg">
               <div class="portfolio-box-caption">
                 <div class="portfolio-box-caption-content">
@@ -190,6 +254,19 @@
                 </div>
               </div>
             </span>
+            <div id="p3p-modal" class="modal fade" role="dialog">
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-body">
+                    <p>The P3 Pointer was the first project I built at a hackathon. It used a 9 degrees of freedom sensor and vector calculations to act as a wearable pointing device, sending the data via an ATmega32U4.</p>
+                    <p>As the first project I built at a hackathon, and the first hardware project I'd ever done, it was a great learning experience for me.</p>
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Cool!</button>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
